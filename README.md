@@ -30,3 +30,6 @@ Run this command and replace the url with the ones saved from earlier:
 ```
 
 You should recieve a notification if there are any in stock. You can have the listener running. It will check every 0.5s.
+
+# Making Changes
+You can open up the ```main.py``` file and change the notification text if you like. Please do not put any sensitive information as per [notify.run](https://notify.run/)
