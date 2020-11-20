@@ -1,6 +1,6 @@
 # popfindr_notify
 
-Tool which can help find Xbox Series X in your nearby Targets stores that have it in stock. It will send a notification to your phone once a 
+Tool which can help find Xbox Series X in your nearby Targets stores that have it in stock. It will send a notification to your phone using [notify.run](https://notify.run/) once a 
 stock update has been made by popfindr. 
 
 # Setup
@@ -19,7 +19,7 @@ Be sure to save this somewhere
 In the terminal, run ```python notify.py```.
 Copy the **Endpoint** url and save this somewhere.
 On a phone and/or laptop go to the second url or scan the QR code. 
-![Subcribe](/images/notify_subscribe.jpg?raw=true)
+![Subcribe](images/notify_subscribe.png?raw=true)
 
 Click the subscribe button to start recieving notifications.
 
