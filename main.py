@@ -6,7 +6,7 @@ import pandas as pd
 import requests
 from notify_run import Notify
 
-cached = set()
+cached = []
 def main(url, notify):
     global cached
     page = requests.get(url)
@@ -14,8 +14,9 @@ def main(url, notify):
     tr_elements = doc.xpath('//table[2]/tbody/tr/th[3]/text()')
     # print(page.content)
     # print(tr_elements)
-    count = set(tr_elements)
-    if len(count) > 1 or ('0' not in count and len(count) > 0):
+    count = tr_elements
+    count = [x for x in count if x != '0']
+    if count:
         if cached == count: 
             return
         notify.send(f"Xbox Series X in Stock! {count}", url)
