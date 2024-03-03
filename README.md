@@ -1,4 +1,5 @@
 # popfindr_notify
+__NOTE__: this repository is no longer maintained
 
 Tool which can help find Xbox Series X in your nearby Targets stores that have it in stock. It will send a notification to your phone using [notify.run](https://notify.run/) once a 
 stock update has been made by popfindr. 
